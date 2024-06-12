@@ -6,7 +6,7 @@ In this assessment error handling funtions in solidity namely require, revert an
 
 -> revert(): The revert statement allows you to explicitly revert the current transaction. It is typically used to handle exceptional cases or invalid conditions. You can provide a custom error message with revert to provide more information about the reason for the revert. When revert is executed, any state changes made up to that point in the transaction are discarded.
 
-> assert(): The assert statement is used to verify internal errors or invariants within the contract. It checks for conditions that should never evaluate to false. If the condition passed to assert evaluates to false, it indicates a critical error in the contract's code, and the contract execution is immediately halted and reverted. Unlike require, the error message for assert is not customizable
+-> assert(): The assert statement is used to verify internal errors or invariants within the contract. It checks for conditions that should never evaluate to false. If the condition passed to assert evaluates to false, it indicates a critical error in the contract's code, and the contract execution is immediately halted and reverted. Unlike require, the error message for assert is not customizable
 
 # implementation Here,
 I have implemented these functions in a scenarion of a bank where one can open an account, deposit some money and get loans or can withdraw it. For every account there is a mapping between its address and balance left. mapping(address=>uint) public balance;
