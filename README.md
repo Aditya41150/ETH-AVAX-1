@@ -1,5 +1,5 @@
 # ETH-AVAX
-In this assessment error handling funtions in solidity namely require, revert and assert are used make a contract.
+In this assessment error handling funtions in solidity namely require, revert and assert are used make a contract
 
 # About require() revert() and assert()
 -> require(): The require statement is used to validate conditions within a smart contract. It checks for a specific condition and throws an exception, reverting the transaction if the condition evaluates to false. It is often used for input validation, preconditions, or enforcing certain requirements.
